@@ -45,6 +45,13 @@ div.title {
 }
 /* FIM CONTEUDO PRINCIPAL */
 
+/* INICIO NEWSLETTER */
+.container.newsletter-block {
+    background-color: #000;
+    border-radius: 15px;
+}
+/* FIM NEWSLETTER */
+
 
 
 
