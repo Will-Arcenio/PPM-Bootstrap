@@ -5,6 +5,15 @@
 body {
     background-color: rgb(34, 32, 32) !important;
 }
+a {
+    opacity: 0.6;
+    color: rgb(224, 172, 94) !important;
+}
+a:hover,
+i.icon-instagram:hover {
+    opacity: 1;
+    text-decoration: none !important;
+}
 
 /* INICIO CABEÇALHO */
 .header {
@@ -22,7 +31,6 @@ h4 a {
 h4 a:hover {
     color: #FFF;
     text-decoration: none;
-    font-weight: bold;
 }
 /* FIM CABEÇALHO */
 
@@ -50,17 +58,20 @@ div.title {
     background-color: #000;
     border-radius: 15px;
 }
-/* FIM NEWSLETTER */
-
-
-
-
-
-
-.conteudo {
-    padding-bottom: 20px;
+input#newsletter_email {
+    margin: 13px 0px;
 }
-.botao {
+button.btn-newsletter {
+    margin: 13px 0px;
+}
+h3.newsletter-title {
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 15px 0px;
+    margin: 0;
+}
+.botao,
+.btn-newsletter {
     margin-bottom: 20px;
     background-color: #c2783c;
     border: none;
@@ -74,4 +85,32 @@ select {
     border: none;
     width: 100%;
     padding: 5px 10px;
+    border-radius: 5px;
+}
+/* FIM NEWSLETTER */
+
+/* INICIO RODAPE */
+.footer-externa {
+    background-color: #000;
+    margin-top: 35px;
+}
+i.icon-instagram {
+    font-size: 30px;
+    color: rgb(224, 172, 94);
+    position: relative;
+    top: 6px;
+    margin-right: 4px;
+}
+.redes {
+    margin: 30px 0px;
+}
+/* FIM RODAPE */
+
+
+
+
+
+
+.conteudo {
+    padding-bottom: 20px;
 }
